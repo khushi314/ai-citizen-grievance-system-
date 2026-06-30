@@ -16,14 +16,13 @@
 
 ### 👥 1. Unified Citizen Portal
 Citizens can seamlessly lodge complaints along with video or photo evidence without filling out complex forms. The AI core handles everything automatedly at the backend.
-![Citizen Dashboard](<img width="1920" height="892" alt="Screenshot 2026-06-30 203130" src="https://github.com/user-attachments/assets/aa3bdd07-d5dd-40f7-996f-14aa97acbfff" />
-)
+
 
 ### 📊 2. Admin Real-Time Tracking Map (Red & Green Dots)
 The comprehensive admin dashboard features a dynamic map displaying real-time issues across the jurisdiction:
 * 🔴 **Red Dots:** Pending / High-Priority Issues.
 * 🟢 **Green Dots:** Successfully Resolved Issues.
-![Admin Live Map]([PASTE_ADMIN_MAP_SCREENSHOT_LINK_HERE])
+  
 
 ---
 
