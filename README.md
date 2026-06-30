@@ -7,7 +7,8 @@
 ## 🚀 Live Links & Demonstration
 
 🔗 **Live Deployment Link: https://ai-citizen-grievance-system-k15bgcr7l-khushi-mitra.vercel.app 
-🎬 **Project Video Demonstration:** [PASTE_YOUR_VIDEO_CLIP_LINK_HERE]
+
+🎬 **Project Video Demonstration: https://1drv.ms/v/c/62805fa5c0b21eac/IQBVJJCpPtU-Q7W1-XUefiW8AVEnE9QcPAng2DG941WtgmY?e=gSULoB
 
 ---
 
@@ -15,7 +16,8 @@
 
 ### 👥 1. Unified Citizen Portal
 Citizens can seamlessly lodge complaints along with video or photo evidence without filling out complex forms. The AI core handles everything automatedly at the backend.
-![Citizen Dashboard]([PASTE_CITIZEN_PAGE_SCREENSHOT_LINK_HERE])
+![Citizen Dashboard](<img width="1920" height="892" alt="Screenshot 2026-06-30 203130" src="https://github.com/user-attachments/assets/aa3bdd07-d5dd-40f7-996f-14aa97acbfff" />
+)
 
 ### 📊 2. Admin Real-Time Tracking Map (Red & Green Dots)
 The comprehensive admin dashboard features a dynamic map displaying real-time issues across the jurisdiction:
