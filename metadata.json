@@ -1,0 +1,12 @@
+{
+  "name": "Unified Citizen Portal",
+  "description": "A highly resilient full-stack web application designed for real-time civic complaint ingestion, AI routing, anti-fraud image verification, and interactive gamified civic engagement.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

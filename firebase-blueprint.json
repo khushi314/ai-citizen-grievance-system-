@@ -1,0 +1,40 @@
+{
+  "entities": {
+    "complaint": {
+      "title": "Complaint",
+      "description": "Citizen filed complaint",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "category": { "type": "string" },
+        "severity": { "type": "string" },
+        "status": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "reporterName": { "type": "string" },
+        "reporterEmail": { "type": "string" }
+      },
+      "required": ["id", "title", "description", "status", "category"]
+    },
+    "systemStats": {
+      "title": "SystemStats",
+      "description": "Bhopal city system stats",
+      "type": "object",
+      "properties": {
+        "totalCount": { "type": "number" },
+        "resolvedCount": { "type": "number" }
+      }
+    }
+  },
+  "firestore": {
+    "complaints/{complaintId}": {
+      "schema": "complaint",
+      "description": "Complaint ticket documents"
+    },
+    "systemStats/{statId}": {
+      "schema": "systemStats",
+      "description": "Aggregated dashboard statistics"
+    }
+  }
+}

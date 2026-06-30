@@ -1,0 +1,182 @@
+{
+  "complaints": [
+    {
+      "id": "comp-001",
+      "title": "Overflowing Garbage Bin near Primary School",
+      "description": "Main trash collector is overflowing. Animals are scattering plastic bags onto the main road. Severe smell.",
+      "category": "Waste Management",
+      "severity": "High",
+      "status": "Dispatched",
+      "location": {
+        "latitude": 23.2599,
+        "longitude": 77.4126,
+        "address": "Arera Colony, Ward 4, Bhopal, Madhya Pradesh"
+      },
+      "createdAt": "2026-06-28T05:09:52.589Z",
+      "reporterName": "Rajesh Kumar",
+      "reporterEmail": "rajesh.k@gmail.com",
+      "reporterPhone": "+91 98765 43210",
+      "assignedOfficerId": "officer-waste",
+      "assignedOfficerName": "Officer Vignesh",
+      "assignedDepartment": "Waste Management",
+      "timeline": [
+        {
+          "status": "Registered",
+          "timestamp": "2026-06-28T05:09:52.590Z",
+          "description": "Complaint submitted and registered successfully."
+        },
+        {
+          "status": "Dispatched",
+          "timestamp": "2026-06-28T05:39:52.590Z",
+          "description": "Routed autonomously to Waste Management Ward-4 supervisor queue."
+        }
+      ]
+    },
+    {
+      "id": "comp-002",
+      "title": "Dangerous Deep Pothole on Flyover Descent",
+      "description": "Large deep pothole on the descent of the main flyover. High speed vehicles are swerving dangerously to avoid it.",
+      "category": "Potholes",
+      "severity": "High",
+      "status": "In Progress",
+      "location": {
+        "latitude": 23.2721,
+        "longitude": 77.4012,
+        "address": "MP Nagar Zone 1, Ward-1, Bhopal, Madhya Pradesh"
+      },
+      "createdAt": "2026-06-28T01:09:52.590Z",
+      "reporterName": "Ananya Sen",
+      "reporterEmail": "ananya.sen@outlook.com",
+      "reporterPhone": "+91 91234 56789",
+      "assignedOfficerId": "officer-roads",
+      "assignedOfficerName": "Officer Sanjay",
+      "assignedDepartment": "Roads & Infrastructure",
+      "timeline": [
+        {
+          "status": "Registered",
+          "timestamp": "2026-06-28T01:09:52.590Z",
+          "description": "Complaint filed."
+        },
+        {
+          "status": "Dispatched",
+          "timestamp": "2026-06-28T01:39:52.590Z",
+          "description": "Assigned to Roads & Infrastructure department."
+        },
+        {
+          "status": "In Progress",
+          "timestamp": "2026-06-28T02:09:52.590Z",
+          "description": "Officer Sanjay is on route to patch the location."
+        }
+      ]
+    },
+    {
+      "id": "comp-003",
+      "title": "Broken Streetlight has left crossroad pitch dark",
+      "description": "Streetlight ID SL-3914 has been blinking and has now completely failed. Entire cross section is unsafe for kids.",
+      "category": "Broken Streetlights",
+      "severity": "Medium",
+      "status": "Resolved",
+      "location": {
+        "latitude": 23.2482,
+        "longitude": 77.4251,
+        "address": "Kolar Road Cross, Ward-2, Bhopal, Madhya Pradesh"
+      },
+      "createdAt": "2026-06-27T09:09:52.590Z",
+      "resolvedAt": "2026-06-27T15:09:52.590Z",
+      "reporterName": "Kabir Singh",
+      "reporterEmail": "kabir.singh@gmail.com",
+      "reporterPhone": "+91 88888 77777",
+      "assignedOfficerId": "officer-elec",
+      "assignedOfficerName": "Officer Priya",
+      "assignedDepartment": "Electrical Department",
+      "timeline": [
+        {
+          "status": "Registered",
+          "timestamp": "2026-06-27T09:09:52.590Z",
+          "description": "Complaint registered."
+        },
+        {
+          "status": "Dispatched",
+          "timestamp": "2026-06-27T10:09:52.590Z",
+          "description": "Assigned to electrical team."
+        },
+        {
+          "status": "In Progress",
+          "timestamp": "2026-06-27T11:09:52.590Z",
+          "description": "Repair team dispatched with replacements."
+        },
+        {
+          "status": "Resolved",
+          "timestamp": "2026-06-27T15:09:52.590Z",
+          "description": "Streetlight bulb replaced. EXIF geo-coordinate match: Authentic."
+        }
+      ],
+      "resolutionImageUrl": "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "comp-004",
+      "title": "Water Leakage flooding the market alleyways",
+      "description": "Severe main municipal water pipeline leakage. Fresh water is gushing out and flooding the local flower market.",
+      "category": "Water Leakage",
+      "severity": "High",
+      "status": "Registered",
+      "location": {
+        "latitude": 23.2571,
+        "longitude": 77.3915,
+        "address": "New Market Area, Ward-3, Bhopal, Madhya Pradesh"
+      },
+      "createdAt": "2026-06-28T09:09:52.590Z",
+      "reporterName": "Ramesh Prasad",
+      "reporterEmail": "ramesh.flower@yahoo.com",
+      "reporterPhone": "+91 99001 12233",
+      "timeline": [
+        {
+          "status": "Registered",
+          "timestamp": "2026-06-28T09:09:52.590Z",
+          "description": "Water leakage complaint logged."
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "name": "John Doe",
+      "email": "citizen@portal.com",
+      "role": "Citizen",
+      "points": 280
+    },
+    {
+      "name": "Officer Priya",
+      "email": "priya@civic.gov",
+      "role": "Officer",
+      "department": "Electrical Department",
+      "area": "Ward-2",
+      "officeAddress": "Electrical Substation, Hamidia Road, Ward-2",
+      "points": 450
+    },
+    {
+      "name": "Officer Vignesh",
+      "email": "vignesh@civic.gov",
+      "role": "Officer",
+      "department": "Waste Management",
+      "area": "Ward 4",
+      "officeAddress": "Municipal Office Annex, Ward 4",
+      "points": 390
+    },
+    {
+      "name": "Officer Sanjay",
+      "email": "sanjay@civic.gov",
+      "role": "Officer",
+      "department": "Roads & Infrastructure",
+      "area": "Ward-1",
+      "officeAddress": "Pothole Repair Depot, MP Nagar Zone 1",
+      "points": 510
+    },
+    {
+      "name": "Admin Chief",
+      "email": "admin@civic.gov",
+      "role": "Admin",
+      "points": 0
+    }
+  ]
+}
