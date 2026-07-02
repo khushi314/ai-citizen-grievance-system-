@@ -8,8 +8,6 @@
 
 🔗 **Live Deployment Link: https://ai-citizen-grievance-system-k15bgcr7l-khushi-mitra.vercel.app 
 
-🎬 **Project Video Demonstration: https://1drv.ms/v/c/62805fa5c0b21eac/IQBVJJCpPtU-Q7W1-XUefiW8AVEnE9QcPAng2DG941WtgmY?e=gSULoB
-
 ---
 
 ## 📸 Platform Walkthrough & Screenshots
